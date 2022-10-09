@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: roboto;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/lolo.jpg.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.logo{
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    padding-left: 30px;
+}
+.nn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.nn ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 10px 40px;
+}
+.nn ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+}
+.nn ul li a:hover{
+    color: purple;
+    transition: 1s;
+}
+.content{
+    color: white;
+    font-family: arial;
+    margin-top: 20%;
+    padding-left: 10%;
+}
+h5{
+    color: white;
+    font-size: 18px;
+    padding-left: 13px;
+}
+h2{
+    color: purple;
+    font-size: 50px;
+}
+h6{
+    padding-left: 50px;
+}
+#clock{
+    margin-top: 50px;
+    background-color: transparent;
+    font-size: 17px;
+    color: white;
+    border-color: purple;
+    font-weight: bold;
+    
+}
+.card{
+    width: 200px;
+    height: 150px;
+    display: inline-block;
+    color: white;
+    border-radius: 11px;
+    margin: -50px 10px;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 15px 10px;
+    background-position: center;
+    background-size: cover;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.card1{
+    background-image: url(images/pet2.jpg.jpg);
+}
+.card2{
+    background-image: url(images/pet2.jpg.jpg);
+}
+.pic{
+    margin-left: 60%;
+    margin-bottom: 60px;
+}
+.card:hover{
+    transform: translateY(-30px);
+}
+
